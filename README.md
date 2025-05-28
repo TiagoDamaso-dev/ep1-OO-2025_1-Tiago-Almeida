@@ -48,7 +48,7 @@ avaliacoes.dat - Dados das avaliações
 
 ## Vídeo de Demonstração
 
-- [Inserir o link para o vídeo no YouTube/Drive aqui]
+https://drive.google.com/uc?id=1CJX-pKrsGAl_n_mbhqk1tMqXWu5ICeT8&export=download
 
 ---
 
