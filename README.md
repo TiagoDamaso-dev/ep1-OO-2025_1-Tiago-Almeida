@@ -4,31 +4,45 @@
 
 Desenvolvimento de um sistema acadêmico para gerenciar alunos, disciplinas, professores, turmas, avaliações e frequência, utilizando os conceitos de orientação a objetos (herança, polimorfismo e encapsulamento) e persistência de dados em arquivos.
 
-O enunciado do trabalho pode ser encontrado aqui:
-- [Trabalho 1 - Sistema Acadêmico](https://github.com/lboaventura25/OO-T06_2025.1_UnB_FCTE/blob/main/trabalhos/ep1/README.md)
-
 ## Dados do Aluno
 
-- **Nome completo:** [Preencher aqui]
-- **Matrícula:** [Preencher aqui]
-- **Curso:** [Preencher aqui]
-- **Turma:** [Preencher aqui]
+- **Nome completo:** Tiago Almeida Damaso
+- **Matrícula:** 241040664
+- **Curso:** Engenharia Automotiva
+- **Turma:** 06
 
 ---
 
 ## Instruções para Compilação e Execução
 
-1. **Compilação:**  
-   [Descrever aqui como compilar o projeto. Exemplo: `javac Main.java` ou o script usado]
+### Pré-requisitos
+- Java Development Kit (JDK) 11 ou superior
+- Git (opcional, apenas para controle de versão)
+O projeto pode ser compilado usando o comando `javac`. Navegue até o diretório raiz do projeto e execute:
+javac -d out/production/SistemaAcademicoFCTE -cp src/main/java src/main/java/sistema/controles/ModulosDoSistema/main/Main.java
 
 2. **Execução:**  
-   [Descrever aqui como executar o projeto. Exemplo: `java Main` ou o script usado]
+   # Navegue até a pasta de saída
+   cd out/production/SistemaAcademicoFCTE
+
+# Execute o programa
+java sistema.controles.ModulosDoSistema.main.Main
+
 
 3. **Estrutura de Pastas:**  
-   [Descrever aqui as principais pastas do projeto]
+src/main/java/ - Código-fonte Java
+sistema/controles/ModulosDoSistema/ - Estrutura principal do pacote
+EntidadesSistema/ - Classes de domínio (Aluno, Disciplina, etc.)
+Funcionalidades/ - Lógica de negócios
+main/ - Classe principal (Main.java)
+out/ - Arquivos compilados (.class)
+Arquivos de dados:
+alunos.dat - Dados dos alunos
+disciplinas.dat - Dados das disciplinas
+avaliacoes.dat - Dados das avaliações
 
 3. **Versão do JAVA utilizada:**  
-   [Descrever aqui como versão do JAVA utilizada no projeto. Sugestão: `java 21`]
+   Java 11 ou superior (compatível com Java 11+)
 
 ---
 
@@ -41,36 +55,37 @@ O enunciado do trabalho pode ser encontrado aqui:
 ## Prints da Execução
 
 1. Menu Principal:  
-   ![Inserir Print 1](caminho/do/print1.png)
+   ![image](https://github.com/user-attachments/assets/a7ce9b3f-aeb2-4e43-86f4-ae0d2721b772)
+
 
 2. Cadastro de Aluno:  
-   ![Inserir Print 2](caminho/do/print2.png)
+   ![image](https://github.com/user-attachments/assets/6a3c5d50-c24a-462a-a25c-54bfe7ac3a3e)
+
 
 3. Relatório de Frequência/Notas:  
-   ![Inserir Print 3](caminho/do/print3.png)
+  ![image](https://github.com/user-attachments/assets/62e528e7-85ec-4cc2-96ec-567ddbd1a52f)
+
 
 ---
 
 ## Principais Funcionalidades Implementadas
 
-- [ ] Cadastro, listagem, matrícula e trancamento de alunos (Normais e Especiais)
-- [ ] Cadastro de disciplinas e criação de turmas (presenciais e remotas)
-- [ ] Matrícula de alunos em turmas, respeitando vagas e pré-requisitos
-- [ ] Lançamento de notas e controle de presença
-- [ ] Cálculo de média final e verificação de aprovação/reprovação
+- [*] Cadastro, listagem, matrícula e trancamento de alunos (Normais e Especiais)
+- [*] Cadastro de disciplinas e criação de turmas (presenciais e remotas)
+- [*] Matrícula de alunos em turmas, respeitando vagas e pré-requisitos
+- [*] Lançamento de notas e controle de presença
+- [*] Cálculo de média final e verificação de aprovação/reprovação
 - [ ] Relatórios de desempenho acadêmico por aluno, turma e disciplina
-- [ ] Persistência de dados em arquivos (.txt ou .csv)
+- [*] Persistência de dados em arquivos (.txt ou .csv)
 - [ ] Tratamento de duplicidade de matrículas
-- [ ] Uso de herança, polimorfismo e encapsulamento
+- [*] Uso de herança, polimorfismo e encapsulamento
 
 ---
 
 ## Observações (Extras ou Dificuldades)
 
-- [Espaço para o aluno comentar qualquer funcionalidade extra que implementou, dificuldades enfrentadas, ou considerações importantes.]
+- A parte de tratamento de arquivos foi a mais complicada pela quantidade de bugs gerados
 
 ---
 
-## Contato
 
-- [Opcional: E-mail pessoal do aluno.]
